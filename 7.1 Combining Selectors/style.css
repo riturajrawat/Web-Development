@@ -1,0 +1,40 @@
+/* Write your code here: */
+
+/* Group 
+selector, selector {
+    color: blueviolet;
+}
+*/
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Child 
+selector > selector {
+  color: firebrick;
+}
+*/
+.box > p {
+  color: firebrick;
+}
+
+/* Descendent 
+selector selector {
+  color: blue;
+}
+*/
+.box li {
+  color: blue;
+}
+
+/* Chained 
+*/
+li.done {
+  color: seagreen;
+}
+
+/* Multiple Combiners */
+ul p.done {
+  font-size: 0.5rem;
+}
